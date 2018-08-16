@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="tabbar2">
+  <text>我是tabbar2</text>
+</view>

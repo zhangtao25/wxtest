@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="test">
+  <text>我是一个可复用的组件~</text>
+</view>
