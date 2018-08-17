@@ -1,0 +1,5 @@
+.article-details{padding: 30rpx;}
+.article-details>.title{font-size: 45rpx;text-align: left}
+.article-details>.subtitle{font-size: 30rpx;color: #666 ;text-align: left;line-height: 100rpx}
+.article-details>.main image{display: block;width: 690rpx;}
+.article-details>.main{text-indent: 2rem}

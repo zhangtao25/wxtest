@@ -3,7 +3,8 @@
     "pages/tabbar/home/index",
     "pages/tabbar/tabbar2/index",
     "pages/tabbar/tabbar3/index",
-    "pages/tabbar/mine/index"
+    "pages/tabbar/mine/index",
+    "pages/article-details/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

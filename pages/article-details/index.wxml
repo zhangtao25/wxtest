@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="article-details">
+  <view class="title">
+    <text>无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车</text>
+  </view>
+  <view class="subtitle">
+    <text>易车/2018-8-17</text>
+  </view>
+
+  <view class="main">
+    <view>
+      <text>1829年，英国的詹姆斯发明了时速25公里的蒸汽车，该车可以作为大轿车使</text>
+    </view>
+    <view>
+      <image mode="aspectFit"  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg"></image>
+    </view>
+    <view>
+      <text>1769年，法国人N·J·居纽制造了用煤气燃烧产生蒸汽驱动的三轮汽车。但是这种车的时速仅4公里，而且每15分钟就要停车向锅炉加煤，非常麻烦。后来车在一次行进中撞到砖墙上，碰得支离破碎。</text>
+    </view>
+    <view>
+      <text>1879年，德国工程师卡尔·本茨(Karl Benz)，首次试验成功一台二冲程试验性发动机。</text>
+    </view>
+  </view>
+</view>

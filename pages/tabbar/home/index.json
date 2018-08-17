@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "test": "/components/test/index"
+    "test": "/components/test/index",
+    "article-recommends": "/pages/home-components/article-recommends/index"
   }
 }
