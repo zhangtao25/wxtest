@@ -2,14 +2,23 @@
 .articles-list{
   border-bottom: 4rpx solid #f7f7f7;
   width: 710rpx;
-  height: 200rpx;
-  padding: 20rpx 0 20rpx 0;
+  padding: 22rpx 0 22rpx 0;
   display: flex
 }
 
-.articles-list>.main{width: 500rpx;text-align: left;}
-.articles-list>.img{width: 200rpx;height: 200rpx;background-color: #ccc}
+.articles-list>.serial-number-wrap{width: 40rpx;height: 170rpx}
+.articles-list>.serial-number-wrap>.serial-number{
+  width: 40rpx;height: 40rpx;
+  border-radius: 50%;
+  background-color: #efefef;
+  line-height: 40rpx;
+  margin-top: 27rpx;
+  font-size: 22rpx;
+}
 
-.articles-list>.main>.main_t{height: 130rpx;}
-.articles-list>.main>.main_b{height: 70rpx;}
-.articles-list>.main>.main_b{font-size: 25rpx;color: #a1a1a1}
+.articles-list>.main-wrap{text-align: left;padding: 0 25rpx 0 25rpx}
+.articles-list>.main-wrap>.main_t{font-size: 35rpx;height: 135rpx; font-weight: 200}
+.articles-list>.main-wrap>.main_b{font-size: 25rpx;color: #a1a1a1;font-weight: 200}
+
+.articles-list>.img-wrap{width: 225rpx;height: 170rpx}
+

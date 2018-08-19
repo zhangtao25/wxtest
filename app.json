@@ -1,15 +1,14 @@
 {
   "pages":[
     "pages/tabbar/home/index",
-    "pages/tabbar/tabbar2/index",
-    "pages/tabbar/tabbar3/index",
+    "pages/tabbar/subscribe/index",
     "pages/tabbar/mine/index",
     "pages/article-details/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "马鞍山福耀汽车玻璃",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -20,15 +19,10 @@
       "iconPath": "images/tabbar/home.png",
       "selectedIconPath": "images/tabbar/home-action.png"
     },{
-      "pagePath": "pages/tabbar/tabbar2/index",
-      "text": "tabbar2",
-      "iconPath": "images/tabbar/mine.png",
-      "selectedIconPath": "images/tabbar/mine-action.png"
-    },{
-      "pagePath": "pages/tabbar/tabbar3/index",
-      "text": "tabbar3",
-      "iconPath": "images/tabbar/mine.png",
-      "selectedIconPath": "images/tabbar/mine-action.png"
+      "pagePath": "pages/tabbar/subscribe/index",
+      "text": "预约",
+      "iconPath": "images/tabbar/subscribe.png",
+      "selectedIconPath": "images/tabbar/subscribe-action.png"
     },{
       "pagePath": "pages/tabbar/mine/index",
       "text": "我的",

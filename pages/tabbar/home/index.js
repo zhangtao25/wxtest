@@ -34,6 +34,7 @@ Page({
     var that = this;
     wx.getSystemInfo({
       success: function (res) {
+        console.log(res)
         that.setData({
           //计算相关宽度
           sliderWidth: res.windowWidth / that.data.tabs.length,
