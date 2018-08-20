@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "test": "/components/test/index",
-    "article-recommends": "/pages/home-components/article-recommends/index"
+    "article-recommends": "/pages/home-components/article-recommends/index",
+    "find-us": "/pages/home-components/find-us/index"
   }
 }

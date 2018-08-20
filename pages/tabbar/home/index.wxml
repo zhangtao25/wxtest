@@ -20,7 +20,7 @@
           <view>业务流程</view>
         </swiper-item>
         <swiper-item>
-          <view>关于我们</view>
+          <find-us></find-us>
         </swiper-item>
       </swiper> 
     </view>

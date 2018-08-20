@@ -16,7 +16,7 @@
   font-size: 22rpx;
 }
 
-.articles-list>.main-wrap{text-align: left;padding: 0 25rpx 0 25rpx}
+.articles-list>.main-wrap{text-align: left;padding: 0 25rpx 0 25rpx;width: 398rpx}
 .articles-list>.main-wrap>.main_t{font-size: 35rpx;height: 135rpx; font-weight: 200}
 .articles-list>.main-wrap>.main_b{font-size: 25rpx;color: #a1a1a1;font-weight: 200}
 

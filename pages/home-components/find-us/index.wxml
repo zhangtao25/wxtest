@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="find-us">
+  <view class="north-store">
+    <view class="text">
+      <view class="text-border"></view>
+      <text>北店</text>
+    </view>
+    <map id="map" longitude="118.524110" latitude="31.693920" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 439rpx;"></map>
+    
+    <view>
+      <text class="iconfont icon-address">花山区江东大道北段556号</text>
+      </view>
+    <view>
+      <text class="iconfont icon-telephone">张涛：18158899797</text>
+    </view>
+    <view>
+      <text class="iconfont icon-wechat">张涛：18158899797</text>
+    </view>
+    <button type="primary" bindtap="openMap">查看详细地图信息</button>
+  </view>
+</view>

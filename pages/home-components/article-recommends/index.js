@@ -1,32 +1,26 @@
 Component({
   data: {
     msg:[{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img1.jpg",
+      "title":"汽车玻璃碎了的安全隐患"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img2.jpg",
+      "title":"汽车玻璃的分类（一）夹层玻璃"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img3.jpg",
+      "title":"汽车玻璃的分类（二）钢化玻璃"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img4.jpg",
+      "title":"汽车玻璃的分类（三）镀膜玻璃"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img5.jpg",
+      "title":"我买了车险，还有必要另外购买汽车玻璃险吗？"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img6.jpg",
+      "title":"汽车玻璃更换流程"
     },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
-    },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
-    },{
-      "img":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534496496721&di=83d1931f92411c350c450fbf6e61748c&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20150520%2Ftooopen_sy_125299632475.jpg",
-      "wenzi":"无惧改变/坚持自我 瑜伽教练情迷1系三厢运动轿车"
+      "title-illustration":"/images/static/img7.jpg",
+      "title":"镀膜玻璃、贴膜玻璃区别"
     }],
     date:""
   },
