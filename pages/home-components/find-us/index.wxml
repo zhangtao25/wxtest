@@ -1,21 +1,47 @@
 <!--index.wxml-->
 <view class="find-us">
-  <view class="north-store">
-    <view class="text">
-      <view class="text-border"></view>
-      <text>北店</text>
+
+
+
+  <view class="navbar" style=" z-index:50">
+    <view wx:for="{{navbar}}" data-idx="{{index}}" wx:key="index" class="item {{currentTab==index ? 'active' : ''}}" bindtap="navbarTap">
+      {{item}}
     </view>
-    <map id="map" longitude="118.524110" latitude="31.693920" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 439rpx;"></map>
-    
-    <view>
-      <text class="iconfont icon-address">花山区江东大道北段556号</text>
-      </view>
-    <view>
-      <text class="iconfont icon-telephone">张涛：18158899797</text>
-    </view>
-    <view>
-      <text class="iconfont icon-wechat">张涛：18158899797</text>
-    </view>
-    <button type="primary" bindtap="openMap">查看详细地图信息</button>
   </view>
+
+  <!--北店-->
+  <view hidden="{{currentTab !== 0}}" id="one">
+    <view class="north-store">
+      <map id="map" longitude="118.524110" latitude="31.693920" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" style="width: 100%; height: 439rpx;"></map>
+      <view>
+        <text class="iconfont icon-address">花山区江东大道北段556号</text>
+        </view>
+      <view>
+        <text class="iconfont icon-telephone">张涛：18158899797</text>
+      </view>
+      <view>
+        <text class="iconfont icon-wechat">张涛：18158899797</text>
+      </view>
+      <button type="primary" bindtap="openMap">查看详细地图信息</button>
+    </view>
+  </view>
+
+  <!--南店-->
+  <view hidden="{{currentTab !== 1}}" id="one">
+    <view class="north-store">
+      <map id="map" longitude="118.497606" latitude="31.639443" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers1}}" bindmarkertap="markertap" style="width: 100%; height: 439rpx;"></map>
+      <view>
+        <text class="iconfont icon-address">雨山区湖西南路3号</text>
+        </view>
+      <view>
+        <text class="iconfont icon-telephone">张涛：18158899797</text>
+      </view>
+      <view>
+        <text class="iconfont icon-wechat">张涛：18158899797</text>
+      </view>
+      <button type="primary" bindtap="openMap1">查看详细地图信息</button>
+    </view>
+  </view>
+
+
 </view>

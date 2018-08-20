@@ -3,6 +3,58 @@
 .north-store>.text{text-align: left;display: flex;border-bottom: 4rpx solid #f7f7f7;line-height: 80rpx;}
 .north-store>.text>.text-border{height: 27rpx;width: 8rpx;background-color: #0068aa;transform: translateY(35rpx);margin-right: 20rpx;}
 
-.north-store>view:nth-child(3),.north-store>view:nth-child(4),.north-store>view:nth-child(5){margin: 10rpx 0 10rpx 0}
+.north-store>view:nth-child(3),.north-store>view:nth-child(4),.north-store>view:nth-child(5){margin: 20rpx 0 20rpx 0}
+map{margin: 20rpx 0 20rpx 0}
 
+/*圆点数字标注*/
+.notice {
+    width:28rpx;
+    height:28rpx;
+    color:#fff;
+    text-align:center;
+    background-color:#0068aa;
+    border-radius:50%;
+    position:absolute;
+    float:left;
+   /* margin-top: 8rpx;*/
+   top:5rpx;
+    font-size: 15rpx;
+    right:30rpx;
+    line-height:30rpx; }
+
+/*顶部导航样式*/
+  .navbar{ 
+ flex: none; 
+ display: flex; 
+ background: #eeeeee; 
+ margin-top: 20rpx;
+ z-index: 50; 
+} 
+.navbar .item{ 
+ position: relative; 
+ flex: auto; 
+ text-align: center;
+ line-height: 60rpx; 
+ font-size: 24rpx;
+ color: #666666;
+ font-family: Microsoft YaHei;
+} 
+.navbar .item.active{ 
+ color: #0068aa; 
+ font-size: 24rpx;
+ font-family: Microsoft YaHei;
+} 
+.navbar .item.active:after{ 
+ content: ""; 
+ display: block; 
+ position: absolute; 
+ bottom: 0; 
+ left: 0; 
+ right: 0; 
+ height: 4rpx; 
+ background: #0068aa; 
+ font-size: 24rpx;
+ color: #666666;
+ font-family: Microsoft YaHei;
+}
 @import "/utils/iconfont.wxss";
